@@ -8,12 +8,19 @@
  */
 
 // Inputs values
+//* 1 - create a variable that holds the resulting array.
+// use 'let' because we don't want to assign a new value to the array variable
 let inputValues = [2, 4, 6, 8, 11, 20, 15, 22];
 inputValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 inputValues = [70, 42, 55, 81, 21, 91, 34];
 inputValues = [2, 4, 6, 8, 10, 11, 12];
 
 const result = [];
+// For loops:look through a block of code a number of times
+// A for loop statement is created with 3 expresions:();{}
+// for (initialization; condition; afterthought){
+// statemet
+// }
 for (let i = 0; i < inputValues.length; i++) {
   const inputValue = inputValues[i];
   if (inputValue % 2 !== 0) {

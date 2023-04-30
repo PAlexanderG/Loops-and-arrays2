@@ -18,10 +18,14 @@ inputValues = [2, 4, 6, 8, 10, 11, 12];
 const result = [];
 // For loops:look through a block of code a number of times
 // A for loop statement is created with 3 expresions:();{}
-// for (initialization; condition; afterthought){
-// statemet
+// for (initialization:executed once before execution ;condition: defines de condition for
+//execution the code block; afterthought: executed after the code finishes){
+//* statemet
 // }
 for (let i = 0; i < inputValues.length; i++) {
+  // With this loop, we would iterate over operatingSystems, logging each system
+  // based on the value of index. This index incremented by 1 & used to access
+  // operatingSystem to access a specific index.
   const inputValue = inputValues[i];
   if (inputValue % 2 !== 0) {
     result.push(inputValue);
@@ -98,9 +102,9 @@ console.log(reversedArray);
  * SOLUTION FOR PROBLEM #4 - FIZZBUZZ
  *
  * Pseudocode:
- * 1 - define one variables that keeps the limiting number.
+ * 1 - define one variables that keeps the limiting number from 1 to 100 (100).
  * 2 - loop from 1 all the way up to the limit number.
- * 3 - depending if the number is divisible by 3, 5 and/or both, print Fizz or Buzz
+ * 3 - depending (If statement) the number is divisible by 3, 5 and/or both, print Fizz or Buzz
  * 4 - console.log the number with Fuzz, Buzz or FuzzBuzz
  */
 
